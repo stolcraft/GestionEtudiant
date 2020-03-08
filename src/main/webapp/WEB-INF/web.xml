@@ -1,0 +1,85 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Connection</servlet-name>
+  	<display-name>Connection</display-name>
+  	<description></description>
+  	<servlet-class>eu.ensup.demoJpa.presentation.Connection</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Suppression</servlet-name>
+  	<display-name>Suppression</display-name>
+  	<description></description>
+  	<servlet-class>eu.ensup.demoJpa.presentation.Suppression</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Ajouter</servlet-name>
+  	<display-name>Ajouter</display-name>
+  	<description></description>
+  	<servlet-class>eu.ensup.demoJpa.presentation.Ajouter</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AjouterEtudiant</servlet-name>
+  	<display-name>AjouterEtudiant</display-name>
+  	<description></description>
+  	<servlet-class>eu.ensup.demoJpa.presentation.AjouterEtudiant</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>modifierRouter</servlet-name>
+  	<display-name>modifierRouter</display-name>
+  	<description></description>
+  	<servlet-class>eu.ensup.demoJpa.presentation.modifierRouter</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>modifierEtudiant</servlet-name>
+  	<display-name>modifierEtudiant</display-name>
+  	<description></description>
+  	<servlet-class>eu.ensup.demoJpa.presentation.modifierEtudiant</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Connection</servlet-name>
+  	<url-pattern>/Connection</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Suppression</servlet-name>
+  	<url-pattern>/Suppression</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Ajouter</servlet-name>
+  	<url-pattern>/Ajouter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AjouterEtudiant</servlet-name>
+  	<url-pattern>/AjouterEtudiant</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>modifierRouter</servlet-name>
+  	<url-pattern>/modifierRouter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>modifierEtudiant</servlet-name>
+  	<url-pattern>/modifierEtudiant</url-pattern>
+  </servlet-mapping>
+  
+  
+   <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+
+  <error-page>
+    <error-code>404</error-code>
+    <location>/404.jsp</location>
+  </error-page>
+  <error-page>
+    <error-code>500</error-code>
+    <location>/500.jsp</location>
+  </error-page>
+  
+</web-app>
