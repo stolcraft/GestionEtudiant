@@ -11,7 +11,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<servlet.version>4.0.1</servlet.version>
 		<servlet.api.version>2.3.3</servlet.api.version>
-		<mysql.version> 8.0.18 </mysql.version>
+		<mysql.version>8.0.28</mysql.version>
 	</properties>
 	
   <dependencies>
@@ -19,7 +19,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.15</version>
+			<version>8.0.28</version>
 		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
